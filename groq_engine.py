@@ -19,14 +19,22 @@ def get_next_key():
     return key
 
 async def generate_email_content(lead_name: str, lead_niche: str, lead_location: str) -> str:
-    fallback = (
-        f"Hi {lead_name},\n\n"
-        f"I'm Monu Kumar, a Web & App Developer. I noticed your {lead_niche} business in {lead_location} "
-        f"doesn't have a website yet. I can help you build a professional website, mobile app, or AI chatbot "
-        f"to grow your business online.\n\n"
-        f"Would you be open to a quick 5-minute chat?\n\n"
-        f"Best,\nMonu Kumar\nWeb Dev | App Dev | AI Agents & Chatbots"
+    script_body = (
+        f"Noticed your business has strong potential, but most companies lose leads due to low-converting websites and lack of automation.\n\n"
+        f"At https://inityo.in, we build scalable websites, apps, and AI automation systems designed to convert visitors into paying customers — especially for markets like the US, London, and Dubai.\n\n"
+        f"✔ 20+ scalable websites & applications delivered\n"
+        f"✔ AI-powered lead capture + follow-up automation\n"
+        f"✔ 180+ real-world implementations (web, app, AI systems)\n\n"
+        f"Recent insight: even a 10–20% conversion improvement can significantly increase revenue without increasing ad spend.\n\n"
+        f"If you’re open, I can share 2–3 quick ideas tailored to your business or a short audit.\n\n"
+        f"Reply “YES” and I’ll send it.\n\n"
+        f"– Monu Kumar\n"
+        f"https://inityo.in\n"
+        f"https://www.instagram.com/hack_yhacker/"
     )
+    
+    greeting = f"Hi {lead_name} from {lead_location},\n\n"
+    fallback = greeting + script_body
 
     key = get_next_key()
     if not key:
@@ -37,11 +45,12 @@ async def generate_email_content(lead_name: str, lead_niche: str, lead_location:
         client = AsyncGroq(api_key=key)
 
         system_prompt = (
-            "You are Monu Kumar, a professional developer offering: Web Development, App Development, "
-            "Business Management Systems, Chatbots, and AI Agents. "
-            "Write a short cold email (max 80 words) to a business owner who has NO website. "
-            "Offer to help them get online. Be friendly, concise, and end with a soft call to action. "
-            "Do NOT write a subject line. Sign off as 'Monu Kumar'."
+            "You are Monu Kumar, owner of https://inityo.in. Your mission is to send professional cold emails. "
+            "Use the following structure specifically:\n"
+            f"1. Greeting: {greeting}\n"
+            "2. Body: Use the provided script but slightly personalize the first sentence to better fit the business type (niche) if possible. "
+            "Keep the core facts and links exactly as they are.\n\n"
+            "Script to follow:\n" + script_body
         )
 
         completion = await client.chat.completions.create(
@@ -50,8 +59,8 @@ async def generate_email_content(lead_name: str, lead_niche: str, lead_location:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"Business: {lead_name}\nType: {lead_niche}\nLocation: {lead_location}"}
             ],
-            temperature=0.75,
-            max_tokens=200,
+            temperature=0.7,
+            max_tokens=400,
         )
         return completion.choices[0].message.content.strip()
 

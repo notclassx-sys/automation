@@ -14,24 +14,21 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 async def execute_one_cycle():
     await database.init_db()
-    logging.info("Starting fresh execution cycle for GitHub Actions.")
+    logging.info("Starting execution cycle.")
     
     try:
-        # 0. Clear old state to ensure full freshness
-        await database.clear_all_leads()
-
-        # 1. Fresh Scraping: Always find 5 new leads
-        logging.info("🔍 Scraping 5 fresh leads for this session...")
+        # 1. Fresh Scraping: Find new leads (scraper automatically skips existing emails)
+        logging.info("🔍 Scraping fresh leads...")
         await scraper.scrape_new_leads(limit=5)
         
-        # 2. Get the new leads
+        # 2. Get the new pending leads
         pending_leads = await database.get_pending_leads(limit=5)
         
         if not pending_leads:
-            logging.warning("No leads found during scraping. Exiting cycle.")
+            logging.warning("No new pending leads found. Exiting cycle.")
             return
 
-        logging.info(f"Processing {len(pending_leads)} fresh leads.")
+        logging.info(f"Processing {len(pending_leads)} pending leads.")
         
         # 3. Process and send emails
         for lead in pending_leads:
@@ -52,14 +49,13 @@ async def execute_one_cycle():
             
             if success:
                 logging.info(f"Successfully sent email to: {lead['email']}")
-                # We don't mark as sent here because we'll clear everything at the end
-                await asyncio.sleep(5) # Small delay to not anger Gmail's smtp limit
+                # Mark as sent so we don't contact them again in future runs
+                await database.mark_lead_sent(lead['email'])
+                await asyncio.sleep(5) # Small delay to respect Gmail limits
             else:
                 logging.warning(f"Failed to send email to: {lead['email']}")
                 
-        # 4. Final Cleanup: Clear leads.json so storage stays empty between runs
-        await database.clear_all_leads()
-        logging.info("Execution cycle complete. Storage cleared.")
+        logging.info("Execution cycle complete. All contacted leads are now marked as 'sent'.")
             
     except Exception as e:
         logging.error(f"Error during execution: {e}")

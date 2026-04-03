@@ -486,7 +486,7 @@
             "email": "neoautoworkssj@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 62,
@@ -494,7 +494,7 @@
             "email": "dentdiscountmobile@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 63,
@@ -502,7 +502,7 @@
             "email": "dannytrancleaningservicesinc@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 64,
@@ -510,7 +510,7 @@
             "email": "cinderellascleaningserviceltd@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 65,
@@ -518,7 +518,7 @@
             "email": "kellysintegritycleaning@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 66,
@@ -1007,11 +1007,59 @@
             "niche": "Electrician",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 127,
+            "name": "Unitedcontracting07",
+            "email": "unitedcontracting07@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 128,
+            "name": "Nycroofers",
+            "email": "nycroofers@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 129,
+            "name": "Agoodroofernyc",
+            "email": "agoodroofernyc@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 130,
+            "name": "Nassauroofersinc",
+            "email": "nassauroofersinc@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 131,
+            "name": "Steveharrismasterroofer",
+            "email": "steveharrismasterroofer@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 132,
+            "name": "518Eliteroofing",
+            "email": "518eliteroofing@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 22:27:55",
+        "last_run": "2026-04-03 23:03:17",
         "location_index": 0,
-        "niche_index": 15
+        "niche_index": 16
     }
 }

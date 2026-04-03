@@ -99,9 +99,9 @@ async def scrape_new_leads():
             logging.info(f"🔍 Searching: {niche} in {location}...")
 
             queries = [
-                f'"{niche}" {location} "@gmail.com" contact',
-                f'site:facebook.com "{niche}" {location} gmail',
-                f'"{niche}" {location} owner email gmail',
+                f'{niche} {location} gmail.com contact',
+                f'site:facebook.com {niche} {location} gmail',
+                f'{niche} in {location} "email" gmail',
             ]
 
             for query in queries:
@@ -109,10 +109,10 @@ async def scrape_new_leads():
                 if results:
                     count = await process_results(results, niche, location)
                     total += count
-                    if total >= 10: # Stop early if we have enough for a few cycles
-                        logging.info("Found enough leads for now. Wrapping up...")
+                    if total >= 15: # Stop once we have a good batch
+                        logging.info("Found a solid batch of leads. Done for now.")
                         return total
-                await asyncio.sleep(2) # Polite delay between queries
+                await asyncio.sleep(2)
 
     logging.info(f"Scraping cycle complete. Total new leads: {total}")
     return total

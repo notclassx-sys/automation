@@ -2,110 +2,772 @@
     "leads": [
         {
             "id": 1,
-            "name": "Jmd Cleaningservices Pty Ltd",
-            "email": "jmd.cleaningservices.pty.ltd@gmail.com",
-            "niche": "Cleaning Service",
+            "name": "Nswismphysio",
+            "email": "nswismphysio@gmail.com",
+            "niche": "Hospital",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 2,
-            "name": "Teampearlcleaning",
-            "email": "Teampearlcleaning@gmail.com",
-            "niche": "Cleaning Service",
-            "location": "Australia",
-            "status": "pending"
+            "name": "Mexicocityrestaurant092019",
+            "email": "mexicocityrestaurant092019@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
         },
         {
             "id": 3,
-            "name": "Teamogmovers",
-            "email": "teamogmovers@gmail.com",
-            "niche": "Cleaning Service",
-            "location": "Australia",
-            "status": "pending"
+            "name": "Mimexicobg",
+            "email": "mimexicobg@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
         },
         {
             "id": 4,
-            "name": "Sshomecleaning10",
-            "email": "sshomecleaning10@gmail.com",
-            "niche": "Cleaning Service",
-            "location": "Australia",
-            "status": "pending"
+            "name": "Mexicoclasicobroadway",
+            "email": "mexicoclasicobroadway@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
         },
         {
             "id": 5,
-            "name": "Hpperfectcleaningservices",
-            "email": "hpperfectcleaningservices@gmail.com",
-            "niche": "Cleaning Service",
-            "location": "Australia",
-            "status": "pending"
+            "name": "Restaurantmexicodp",
+            "email": "restaurantmexicodp@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
         },
         {
             "id": 6,
-            "name": "Healing24Cleaning",
-            "email": "healing24cleaning@gmail.com",
-            "niche": "Cleaning Service",
-            "location": "Australia",
-            "status": "pending"
+            "name": "Mexrestonlineordering",
+            "email": "mexrestonlineordering@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
         },
         {
             "id": 7,
-            "name": "Fullbondclean",
-            "email": "fullbondclean@gmail.com",
+            "name": "Bfpmt1",
+            "email": "bfpmt1@gmail.com",
+            "niche": "Plumber",
+            "location": "Canada",
+            "status": "sent"
+        },
+        {
+            "id": 8,
+            "name": "Api Contracting23",
+            "email": "api.contracting23@gmail.com",
+            "niche": "Plumber",
+            "location": "Canada",
+            "status": "sent"
+        },
+        {
+            "id": 9,
+            "name": "Daleygrey",
+            "email": "daleygrey@gmail.com",
+            "niche": "Real Estate",
+            "location": "UK",
+            "status": "sent"
+        },
+        {
+            "id": 10,
+            "name": "Peter Waters12",
+            "email": "peter.waters12@gmail.com",
+            "niche": "Real Estate",
+            "location": "UK",
+            "status": "sent"
+        },
+        {
+            "id": 11,
+            "name": "Benzspecialists",
+            "email": "benzspecialists@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 12,
+            "name": "Johnsautoserviceil",
+            "email": "johnsautoserviceil@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 13,
+            "name": "Dmcroadsideservice",
+            "email": "dmcroadsideservice@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 14,
+            "name": "Mosaicmotorsva",
+            "email": "mosaicmotorsva@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 15,
+            "name": "Coloradotire",
+            "email": "coloradotire@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 16,
+            "name": "Northpalmjapaneseauto",
+            "email": "northpalmjapaneseauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 17,
+            "name": "Colesautorepair",
+            "email": "colesautorepair@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 18,
+            "name": "Myguysgaragellc",
+            "email": "myguysgaragellc@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 19,
+            "name": "Eibellperformance",
+            "email": "eibellperformance@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 20,
+            "name": "Bennettautomotive805",
+            "email": "bennettautomotive805@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 21,
+            "name": "Rover305Miami",
+            "email": "rover305miami@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 22,
+            "name": "Redlandssprinter",
+            "email": "redlandssprinter@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 23,
+            "name": "Autoworxofvenice",
+            "email": "autoworxofvenice@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 24,
+            "name": "Mechanicnearmeatx",
+            "email": "mechanicnearmeatx@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 25,
+            "name": "Actualautomotiverepair",
+            "email": "actualautomotiverepair@hotmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "sent"
+        },
+        {
+            "id": 26,
+            "name": "Nemtecautomotive",
+            "email": "nemtecautomotive@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 27,
+            "name": "Twinbrothersautomotive5",
+            "email": "twinbrothersautomotive5@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 28,
+            "name": "Lethan200472",
+            "email": "lethan200472@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 29,
+            "name": "Stuttgartautowerkss",
+            "email": "stuttgartautowerkss@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 30,
+            "name": "Scallstar831",
+            "email": "scallstar831@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 31,
+            "name": "Wecareautoco",
+            "email": "wecareautoco@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 32,
+            "name": "Jdean1011",
+            "email": "jdean1011@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 33,
+            "name": "Kaseyboucher31",
+            "email": "kaseyboucher31@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 34,
+            "name": "Revolutionimportsllc",
+            "email": "revolutionimportsllc@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 35,
+            "name": "Monkeywithawrench21",
+            "email": "monkeywithawrench21@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 36,
+            "name": "Importauto8200",
+            "email": "importauto8200@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 37,
+            "name": "Jsconcepts6",
+            "email": "jsconcepts6@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 38,
+            "name": "Hemetcarservices",
+            "email": "hemetcarservices@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 39,
+            "name": "Europeanmotorgruppe",
+            "email": "europeanmotorgruppe@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 40,
+            "name": "Bufordsgarageseminole",
+            "email": "bufordsgarageseminole@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 41,
+            "name": "Robert Essagholian",
+            "email": "robert_essagholian@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 42,
+            "name": "Jackson Performance",
+            "email": "jackson.performance@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 43,
+            "name": "Blasautoservice",
+            "email": "blasautoservice@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 44,
+            "name": "Gibbonsautoservices",
+            "email": "gibbonsautoservices@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 45,
+            "name": "Bmattinson",
+            "email": "bmattinson@hotmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 46,
+            "name": "Kennedysrepair",
+            "email": "kennedysrepair@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 47,
+            "name": "Akronlaststopauto",
+            "email": "akronlaststopauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 48,
+            "name": "Specializedporscheservice",
+            "email": "specializedporscheservice@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 49,
+            "name": "Cintechauto",
+            "email": "cintechauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 50,
+            "name": "Nechemotor",
+            "email": "nechemotor@hotmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 51,
+            "name": "Pernacisauto",
+            "email": "pernacisauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 52,
+            "name": "Simmonsauto",
+            "email": "simmonsauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 53,
+            "name": "Boyersautorepair",
+            "email": "boyersautorepair@yahoo.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 54,
+            "name": "Theshopydiygarage",
+            "email": "theshopydiygarage@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 55,
+            "name": "Fedelerudy",
+            "email": "fedelerudy@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 56,
+            "name": "Freedomautotx",
+            "email": "freedomautotx@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 57,
+            "name": "Scatteredwrenches",
+            "email": "scatteredwrenches@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 58,
+            "name": "Gillespietire",
+            "email": "gillespietire@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 59,
+            "name": "Precisionimportsmn",
+            "email": "precisionimportsmn@outlook.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 60,
+            "name": "Neoautoworks",
+            "email": "neoautoworks@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 61,
+            "name": "Neoautoworkssj",
+            "email": "neoautoworkssj@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 62,
+            "name": "Dentdiscountmobile",
+            "email": "dentdiscountmobile@gmail.com",
+            "niche": "Auto Repair",
+            "location": "USA",
+            "status": "pending"
+        },
+        {
+            "id": 63,
+            "name": "Dannytrancleaningservicesinc",
+            "email": "dannytrancleaningservicesinc@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 64,
+            "name": "Cinderellascleaningserviceltd",
+            "email": "cinderellascleaningserviceltd@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 65,
+            "name": "Kellysintegritycleaning",
+            "email": "kellysintegritycleaning@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 66,
+            "name": "Startwithcleanslate",
+            "email": "startwithcleanslate@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 67,
+            "name": "Coastal1Glow",
+            "email": "coastal1glow@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 68,
+            "name": "Coastal1Glow",
+            "email": "COASTAL1GLOW@GMAIL.COM",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 69,
+            "name": "Cuilianzhang96",
+            "email": "cuilianzhang96@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 70,
+            "name": "Islandwise Essentials",
+            "email": "islandwise.essentials@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 71,
+            "name": "Singingsurfmasset",
+            "email": "singingsurfmasset@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 72,
+            "name": "Dalesotto",
+            "email": "dalesotto@hotmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 73,
+            "name": "Massethotel",
+            "email": "massethotel@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 74,
+            "name": "Samsplacehaidagwaii",
+            "email": "samsplacehaidagwaii@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 75,
+            "name": "Hiddenislandrv",
+            "email": "hiddenislandrv@hotmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 76,
+            "name": "Stevebordingnon",
+            "email": "stevebordingnon@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 77,
+            "name": "Goodgradecontracting",
+            "email": "goodgradecontracting@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 78,
+            "name": "Masseteagleslanding",
+            "email": "masseteagleslanding@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 79,
+            "name": "Massetcycles",
+            "email": "massetcycles@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 80,
+            "name": "Massetgym",
+            "email": "massetgym@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 81,
+            "name": "Massetmarket",
+            "email": "massetmarket@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 82,
+            "name": "Haidgawaiiit",
+            "email": "haidgawaiiit@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 83,
+            "name": "Nohaidagwaii",
+            "email": "nohaidagwaii@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 84,
+            "name": "Gwaiinaay",
+            "email": "gwaiinaay@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 85,
+            "name": "Stevebordignon",
+            "email": "stevebordignon@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 86,
+            "name": "Noahaidagwaii",
+            "email": "noahaidagwaii@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 87,
+            "name": "Jsa Proservices",
+            "email": "jsa.proservices@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 88,
+            "name": "Cleaningrestorationkk",
+            "email": "cleaningrestorationkk@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 89,
+            "name": "Hotelaustralia",
+            "email": "hotelaustralia@gmail.com",
+            "niche": "Hotel",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 90,
+            "name": "Zackcleaningaustralia",
+            "email": "zackcleaningaustralia@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 8,
-            "name": "Kimhabraken11",
-            "email": "kimhabraken11@gmail.com",
-            "niche": "Real Estate",
-            "location": "Canada",
+            "id": 91,
+            "name": "Triplejcleaning88",
+            "email": "triplejcleaning88@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 9,
-            "name": "Torontoinvestorforum",
-            "email": "torontoinvestorforum@gmail.com",
-            "niche": "Real Estate",
-            "location": "Canada",
+            "id": 92,
+            "name": "Fastandeasycleaningservice",
+            "email": "fastandeasycleaningservice@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 10,
-            "name": "Churchsupport",
-            "email": "churchsupport@gmail.com",
-            "niche": "Real Estate",
-            "location": "Canada",
+            "id": 93,
+            "name": "Whizzardservicesgroup",
+            "email": "whizzardservicesgroup@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 11,
-            "name": "Haniffshariff",
-            "email": "haniffshariff@gmail.com",
-            "niche": "Real Estate",
-            "location": "Canada",
+            "id": 94,
+            "name": "Cleaningworksau",
+            "email": "cleaningworksau@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 12,
-            "name": "Usatophub",
-            "email": "usatophub@gmail.com",
-            "niche": "Real Estate",
-            "location": "Canada",
+            "id": 95,
+            "name": "Violetapavleskacleaning",
+            "email": "violetapavleskacleaning@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         },
         {
-            "id": 13,
-            "name": "Bhawan Newdelhi",
-            "email": "bhawan.newdelhi@gmail.com",
-            "niche": "Restaurant",
-            "location": "UK",
+            "id": 96,
+            "name": "Apcleaningmelb",
+            "email": "apcleaningmelb@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         }
     ],
-    "settings": {
-        "last_run": "2026-04-04 00:31:07"
-    }
+    "settings": {}
 }

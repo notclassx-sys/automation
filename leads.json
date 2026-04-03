@@ -366,7 +366,7 @@
             "email": "kennedysrepair@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 47,
@@ -374,7 +374,7 @@
             "email": "akronlaststopauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 48,
@@ -382,7 +382,7 @@
             "email": "specializedporscheservice@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 49,
@@ -390,7 +390,7 @@
             "email": "cintechauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 50,
@@ -398,7 +398,7 @@
             "email": "nechemotor@hotmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 51,
@@ -863,11 +863,67 @@
             "niche": "Accountant",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 109,
+            "name": "Fixarnyc",
+            "email": "fixarnyc@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 110,
+            "name": "Advanceactv",
+            "email": "Advanceactv@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 111,
+            "name": "Masellihvac",
+            "email": "masellihvac@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 112,
+            "name": "Info Hvachunters",
+            "email": "info.hvachunters@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 113,
+            "name": "Systematichvac1",
+            "email": "systematichvac1@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 114,
+            "name": "Jmejia35",
+            "email": "jmejia35@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 115,
+            "name": "Speedyhvacsupply",
+            "email": "speedyhvacsupply@gmail.com",
+            "niche": "HVAC Service",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 21:06:19",
+        "last_run": "2026-04-03 21:28:45",
         "location_index": 0,
-        "niche_index": 9
+        "niche_index": 11
     }
 }

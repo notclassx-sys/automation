@@ -4,14 +4,35 @@ import logging
 import httpx
 import database
 
-LOCATIONS = ["USA", "Mexico", "UK", "Canada", "Australia"]
-NICHES = ["Real Estate", "Hospital", "Hotel", "Restaurant", "Cleaning Service", "Plumber", "Auto Repair"]
+# Expanded list of international cities
+LOCATIONS = [
+    # USA
+    "New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "Austin",
+    # UK
+    "London", "Birmingham", "Manchester", "Glasgow", "Liverpool", "Leeds", "Sheffield", "Bristol", "Leicester", "Edinburgh",
+    # Australia
+    "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Canberra", "Newcastle", "Hobart", "Darwin",
+    # Canada
+    "Toronto", "Montreal", "Vancouver", "Ottawa", "Calgary", "Edmonton", "Winnipeg", "Quebec City", "Hamilton", "Kitchener",
+    # Mexico
+    "Mexico City", "Guadalajara", "Monterrey", "Puebla", "Tijuana", "Leon", "Juarez", "Zapopan", "Merida", "Cancun",
+    # Others
+    "Dubai", "Abu Dhabi", "Singapore", "Tokyo", "Berlin", "Paris", "Rome", "Madrid", "Barcelona", "Amsterdam"
+]
 
+NICHES = [
+    "Real Estate", "Hospital", "Hotel", "Restaurant", "Cleaning Service", "Plumber", "Auto Repair",
+    "Dentist", "Accountant", "Lawyer", "HVAC Service", "Gym & Fitness", "Spa & Wellness", "Photographer",
+    "Electrician", "Roofer", "Landscaping", "Interior Designer", "Veterinarian", "Locksmith", "Architecture",
+    "Flooring Contractor", "Pest Control", "Moving Company", "Bakery", "Coffee Shop", "Consulting", "Software Agency"
+]
+
+# Stricter domain skip list
 SKIP_DOMAINS = [
     "duckduckgo.com", "google.com", "yelp.com", "wikipedia.org",
     "yellowpages.com", "facebook.com", "instagram.com", "linkedin.com",
     "tripadvisor.com", "booking.com", "hotels.com", "expedia.com",
-    "yahoo.com", "hotmail.com"
+    "yahoo.com", "hotmail.com", "pinterest.com", "twitter.com"
 ]
 
 # Stricter pattern: local part must be at least 3 characters.
@@ -19,13 +40,12 @@ EMAIL_PATTERN = re.compile(r'[a-zA-Z0-9._%+\-]{3,}@(?:gmail|yahoo|hotmail|outloo
 
 async def fetch_page_text(url: str) -> str:
     try:
-        async with httpx.AsyncClient(timeout=15, follow_redirects=True) as client:
+        async with httpx.AsyncClient(timeout=10, follow_redirects=True) as client:
             resp = await client.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"})
             if resp.status_code == 200:
                 return resp.text
             return ""
-    except Exception as e:
-        # Subtle logging for network errors
+    except Exception:
         return ""
 
 def extract_emails(text: str):
@@ -36,7 +56,7 @@ def extract_emails(text: str):
     for e in found:
         lower = e.lower()
         # Filter obvious junk
-        if any(x in lower for x in ["noreply", "no-reply", "test@", "example", "user@", "email@", "name@", "info@", "admin@"]):
+        if any(x in lower for x in ["noreply", "no-reply", "test@", "example", "user@", "email@", "name@", "info@", "admin@", "sales@", "support@", "hr@"]):
             continue
         
         # Ensure it doesn't look like code or a fragment (e.g. starting with a dot or underscore)
@@ -51,19 +71,18 @@ async def ddgs_search(query: str, max_results: int = 15):
     """Run DuckDuckGo search synchronously in a thread with 3 retries."""
     def _search():
         from duckduckgo_search import DDGS
-        # Suppress warnings if possible or just ignore
         for attempt in range(1, 4):
             try:
                 with DDGS() as ddgs:
                     results = list(ddgs.text(query, max_results=max_results))
                     if results:
                         return results
-                    # If empty, maybe try next attempt
+                    # If empty
                     logging.warning(f"Attempt {attempt}: No results for '{query}'")
                     import time
                     time.sleep(2)
             except Exception as e:
-                logging.warning(f"Attempt {attempt} failed for '{query}': {e}")
+                logging.warning(f"Attempt {attempt} search failed: {e}")
                 import time
                 time.sleep(2)
         return []
@@ -104,34 +123,57 @@ async def process_results(results, niche, location):
 
     return inserted_count
 
-async def scrape_new_leads(limit: int = 15):
+async def scrape_new_leads(limit: int = 10):
     total = 0
-    # Randomize order to avoid patterns
-    import random
-    locs = list(LOCATIONS)
-    random.shuffle(locs)
     
-    for location in locs:
-        for niche in NICHES:
-            logging.info(f"🔍 Searching: {niche} in {location}...")
-
-            queries = [
-                f'{niche} {location} gmail.com contact',
-                f'site:facebook.com {niche} {location} gmail',
-                f'{niche} in {location} "email" gmail',
-            ]
-
-            for query in queries:
-                results = await ddgs_search(query, max_results=15)
-                if results:
-                    count = await process_results(results, niche, location)
-                    total += count
-                    if total >= limit: # Stop once we have reached the requested limit
-                        logging.info(f"Found {total} leads. Reached limit of {limit}. Done for now.")
-                        return total
-                await asyncio.sleep(2)
-
-    logging.info(f"Scraping cycle complete. Total new leads: {total}")
+    # Load current indices for rotation
+    loc_idx = await database.get_setting("location_index") or 0
+    niche_idx = await database.get_setting("niche_index") or 0
+    
+    # Ensure they are within range
+    loc_idx = loc_idx % len(LOCATIONS)
+    niche_idx = niche_idx % len(NICHES)
+    
+    logging.info(f"🔄 Starting rotation cycle at: Location Index {loc_idx}, Niche Index {niche_idx}")
+    
+    # We will try up to 3 location-niche pairs in one run or until limit is reached
+    pairs_searched = 0
+    
+    while total < limit and pairs_searched < 3:
+        location = LOCATIONS[loc_idx]
+        niche = NICHES[niche_idx]
+        
+        logging.info(f"🔍 SEARCHING: '{niche}' in '{location}'...")
+        
+        queries = [
+            f'{niche} {location} gmail.com contact',
+            f'site:facebook.com {niche} {location} "gmail.com"',
+            f'{niche} in {location} email gmail contact',
+        ]
+        
+        for query in queries:
+            results = await ddgs_search(query, max_results=15)
+            if results:
+                count = await process_results(results, niche, location)
+                total += count
+                if total >= limit:
+                    break
+            await asyncio.sleep(2)
+            
+        # Increment indices for rotation
+        # We rotate niche every time, but location only after all niches are exhausted for that location
+        niche_idx += 1
+        if niche_idx >= len(NICHES):
+            niche_idx = 0
+            loc_idx = (loc_idx + 1) % len(LOCATIONS)
+        
+        pairs_searched += 1
+        
+    # Save indices for next 30-minute run
+    await database.save_setting("location_index", loc_idx)
+    await database.save_setting("niche_index", niche_idx)
+    
+    logging.info(f"Scraping cycle complete. Total new leads: {total}. Updated Indices: {loc_idx}, {niche_idx}")
     return total
 
 if __name__ == "__main__":

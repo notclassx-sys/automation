@@ -206,7 +206,7 @@
             "email": "nemtecautomotive@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 27,
@@ -214,7 +214,7 @@
             "email": "twinbrothersautomotive5@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 28,
@@ -222,7 +222,7 @@
             "email": "lethan200472@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 29,
@@ -230,7 +230,7 @@
             "email": "stuttgartautowerkss@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 30,
@@ -238,7 +238,7 @@
             "email": "scallstar831@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 31,
@@ -767,7 +767,105 @@
             "niche": "Cleaning Service",
             "location": "Australia",
             "status": "pending"
+        },
+        {
+            "id": 97,
+            "name": "Gustavobaja",
+            "email": "gustavobaja@gmail.com",
+            "niche": "Real Estate",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 98,
+            "name": "Metropolitanrealestatemx",
+            "email": "metropolitanrealestatemx@gmail.com",
+            "niche": "Real Estate",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 99,
+            "name": "Clearspace382",
+            "email": "clearspace382@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 100,
+            "name": "Sanievento",
+            "email": "sanievento@hotmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 101,
+            "name": "Sanitizaciondecasas",
+            "email": "sanitizaciondecasas@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 102,
+            "name": "Oscaralonsoops",
+            "email": "oscaralonsoops@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 103,
+            "name": "Carlosresendizayala",
+            "email": "carlosresendizayala@hotmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 104,
+            "name": "Gonzalezrodriguezarturo46",
+            "email": "gonzalezrodriguezarturo46@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 105,
+            "name": "Limpiarelux",
+            "email": "limpiarelux@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 106,
+            "name": "Obis Javiersosa",
+            "email": "obis.javiersosa@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 107,
+            "name": "Aaronriosbecerril9",
+            "email": "aaronriosbecerril9@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
+        },
+        {
+            "id": 108,
+            "name": "Maidsoncallrgv",
+            "email": "maidsoncallrgv@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Mexico",
+            "status": "pending"
         }
     ],
-    "settings": {}
+    "settings": {
+        "last_run": "2026-04-03 19:14:52"
+    }
 }

@@ -526,7 +526,7 @@
             "email": "startwithcleanslate@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 67,
@@ -534,7 +534,7 @@
             "email": "coastal1glow@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 68,
@@ -542,7 +542,7 @@
             "email": "COASTAL1GLOW@GMAIL.COM",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 69,
@@ -550,7 +550,7 @@
             "email": "cuilianzhang96@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 70,
@@ -558,7 +558,7 @@
             "email": "islandwise.essentials@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 71,
@@ -1055,11 +1055,51 @@
             "niche": "Roofer",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 133,
+            "name": "Jponceandson",
+            "email": "jponceandson@gmail.com",
+            "niche": "Landscaping",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 134,
+            "name": "Escobar Jose Je7",
+            "email": "escobar.jose.je7@gmail.com",
+            "niche": "Landscaping",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 135,
+            "name": "Isaiahsfigtree",
+            "email": "isaiahsfigtree@gmail.com",
+            "niche": "Landscaping",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 136,
+            "name": "Bkbumpkin",
+            "email": "bkbumpkin@gmail.com",
+            "niche": "Landscaping",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 137,
+            "name": "Toddhaiman",
+            "email": "toddhaiman@gmail.com",
+            "niche": "Landscaping",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 23:03:17",
+        "last_run": "2026-04-03 23:29:44",
         "location_index": 0,
-        "niche_index": 16
+        "niche_index": 17
     }
 }

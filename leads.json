@@ -166,7 +166,7 @@
             "email": "rover305miami@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 22,
@@ -174,7 +174,7 @@
             "email": "redlandssprinter@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 23,
@@ -182,7 +182,7 @@
             "email": "autoworxofvenice@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 24,
@@ -190,7 +190,7 @@
             "email": "mechanicnearmeatx@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 25,
@@ -198,7 +198,7 @@
             "email": "actualautomotiverepair@hotmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 26,
@@ -702,6 +702,70 @@
             "email": "cleaningrestorationkk@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 89,
+            "name": "Hotelaustralia",
+            "email": "hotelaustralia@gmail.com",
+            "niche": "Hotel",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 90,
+            "name": "Zackcleaningaustralia",
+            "email": "zackcleaningaustralia@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 91,
+            "name": "Triplejcleaning88",
+            "email": "triplejcleaning88@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 92,
+            "name": "Fastandeasycleaningservice",
+            "email": "fastandeasycleaningservice@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 93,
+            "name": "Whizzardservicesgroup",
+            "email": "whizzardservicesgroup@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 94,
+            "name": "Cleaningworksau",
+            "email": "cleaningworksau@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 95,
+            "name": "Violetapavleskacleaning",
+            "email": "violetapavleskacleaning@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 96,
+            "name": "Apcleaningmelb",
+            "email": "apcleaningmelb@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
             "status": "pending"
         }
     ],

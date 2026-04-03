@@ -18,6 +18,8 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        # Always fetch full history to avoid push conflicts
+        fetch-depth: 0
         
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,7 +31,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        playwright install chromium
         
     - name: Run Bot
       env:
@@ -42,6 +43,10 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git pull origin main --rebase
         git add leads.db
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update leads db" && git push)
+        # Only commit and push if something changed
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update leads db [skip ci]"
+          git pull origin main --rebase
+          git push origin main
+        fi

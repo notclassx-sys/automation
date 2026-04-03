@@ -75,28 +75,28 @@
             "email": "x@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "G",
             "email": "g@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "S",
             "email": "s@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "Z",
             "email": "z@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "N",

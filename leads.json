@@ -246,7 +246,7 @@
             "email": "wecareautoco@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 32,
@@ -254,7 +254,7 @@
             "email": "jdean1011@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 33,
@@ -262,7 +262,7 @@
             "email": "kaseyboucher31@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 34,
@@ -270,7 +270,7 @@
             "email": "revolutionimportsllc@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 35,
@@ -278,7 +278,7 @@
             "email": "monkeywithawrench21@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 36,
@@ -799,9 +799,27 @@
             "niche": "Real Estate",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 101,
+            "name": "Hotel309",
+            "email": "hotel309@gmail.com",
+            "niche": "Hotel",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 102,
+            "name": "Grandviewhotel30",
+            "email": "grandviewhotel30@gmail.com",
+            "niche": "Hotel",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 19:14:52"
+        "last_run": "2026-04-03 20:03:06",
+        "location_index": 0,
+        "niche_index": 3
     }
 }

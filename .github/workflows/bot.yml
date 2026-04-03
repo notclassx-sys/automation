@@ -3,7 +3,7 @@ name: Lead Gen & Email Bot
 on:
   schedule:
     # Runs at the top of every hour
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *' # Increased frequency to compensate for GitHub scheduling delays
   workflow_dispatch: # Allows manual trigger from Github UI
 
 permissions:

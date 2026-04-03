@@ -37,20 +37,19 @@ jobs:
         GMAIL_USER: ${{ secrets.GMAIL_USER }}
         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       run: |
-        # Ensure we have the latest leads.db before starting
+        # Ensure we have the latest leads.json before starting
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git pull origin main --rebase || git checkout main -- leads.db
+        git pull origin main --rebase || git checkout main -- leads.json
         python main.py
       
     - name: Commit and push changes
-        # Use a loop to handle race conditions during push
       run: |
-        git add leads.db
+        git add leads.json
         if ! git diff --staged --quiet; then
           git commit -m "Auto-update leads db [skip ci]"
           for i in {1..5}; do
-            git pull origin main --rebase -X theirs && git push origin main && break || sleep 10
+            git pull origin main --rebase && git push origin main && break || sleep 10
           done
         else
           echo "No changes to commit."

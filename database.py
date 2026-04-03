@@ -1,64 +1,73 @@
-import aiosqlite
+import json
+import os
+import asyncio
 import logging
 
-DB_NAME = 'leads.db'
+JSON_NAME = 'leads.json'
+
+# Lock for concurrent access (mostly for local safety, GitHub Actions is single-threaded usually)
+_lock = asyncio.Lock()
+
+def _load_data():
+    if not os.path.exists(JSON_NAME):
+        return {"leads": [], "settings": {}}
+    try:
+        with open(JSON_NAME, 'r') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        return {"leads": [], "settings": {}}
+
+def _save_data(data):
+    with open(JSON_NAME, 'w') as f:
+        json.dump(data, f, indent=4)
 
 async def init_db():
-    async with aiosqlite.connect(DB_NAME) as db:
-        await db.execute('''
-            CREATE TABLE IF NOT EXISTS leads (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT,
-                email TEXT,
-                niche TEXT,
-                location TEXT,
-                status TEXT DEFAULT 'pending'  -- 'pending', 'sent'
-            )
-        ''')
-        await db.execute('''
-            CREATE TABLE IF NOT EXISTS settings (
-                key TEXT PRIMARY KEY,
-                value TEXT
-            )
-        ''')
-        await db.commit()
-        logging.info("Database initialized.")
+    async with _lock:
+        if not os.path.exists(JSON_NAME):
+            _save_data({"leads": [], "settings": {}})
+        logging.info("JSON Database initialized.")
 
 async def insert_lead(name, email, niche, location):
-    async with aiosqlite.connect(DB_NAME) as db:
+    async with _lock:
+        data = _load_data()
         # Check if email already exists
-        cursor = await db.execute('SELECT 1 FROM leads WHERE email = ?', (email,))
-        if await cursor.fetchone():
+        if any(lead['email'] == email for lead in data['leads']):
             return False
 
-        await db.execute(
-            'INSERT INTO leads (name, email, niche, location) VALUES (?, ?, ?, ?)',
-            (name, email, niche, location)
-        )
-        await db.commit()
+        new_lead = {
+            "id": len(data['leads']) + 1,
+            "name": name,
+            "email": email,
+            "niche": niche,
+            "location": location,
+            "status": "pending"
+        }
+        data['leads'].append(new_lead)
+        _save_data(data)
         return True
 
 async def get_pending_leads(limit=5):
-    async with aiosqlite.connect(DB_NAME) as db:
-        db.row_factory = aiosqlite.Row
-        cursor = await db.execute("SELECT * FROM leads WHERE status = 'pending' LIMIT ?", (limit,))
-        return await cursor.fetchall()
+    async with _lock:
+        data = _load_data()
+        pending = [lead for lead in data['leads'] if lead.get('status') == 'pending']
+        return pending[:limit]
 
 async def mark_lead_sent(lead_id):
-    async with aiosqlite.connect(DB_NAME) as db:
-        await db.execute("UPDATE leads SET status = 'sent' WHERE id = ?", (lead_id,))
-        await db.commit()
+    async with _lock:
+        data = _load_data()
+        for lead in data['leads']:
+            if lead.get('id') == lead_id:
+                lead['status'] = 'sent'
+                break
+        _save_data(data)
 
 async def save_setting(key, value):
-    async with aiosqlite.connect(DB_NAME) as db:
-        await db.execute('''
-            INSERT INTO settings (key, value) VALUES (?, ?)
-            ON CONFLICT(key) DO UPDATE SET value = excluded.value
-        ''', (key, value))
-        await db.commit()
+    async with _lock:
+        data = _load_data()
+        data['settings'][key] = value
+        _save_data(data)
 
 async def get_setting(key):
-    async with aiosqlite.connect(DB_NAME) as db:
-        cursor = await db.execute('SELECT value FROM settings WHERE key = ?', (key,))
-        row = await cursor.fetchone()
-        return row[0] if row else None
+    async with _lock:
+        data = _load_data()
+        return data['settings'].get(key)

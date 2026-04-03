@@ -246,7 +246,7 @@
             "email": "wecareautoco@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 32,
@@ -254,7 +254,7 @@
             "email": "jdean1011@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 33,
@@ -262,7 +262,7 @@
             "email": "kaseyboucher31@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 34,
@@ -270,7 +270,7 @@
             "email": "revolutionimportsllc@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 35,
@@ -278,7 +278,7 @@
             "email": "monkeywithawrench21@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 36,
@@ -802,6 +802,8 @@
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 19:14:52"
+        "last_run": "2026-04-03 19:54:35",
+        "location_index": 0,
+        "niche_index": 3
     }
 }

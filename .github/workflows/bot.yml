@@ -1,0 +1,48 @@
+name: Lead Gen & Email Bot
+
+on:
+  schedule:
+    # Runs at the top of every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual trigger from Github UI
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        playwright install chromium
+        
+    - name: Run Bot
+      env:
+        GROQ_KEYS: ${{ secrets.GROQ_KEYS }}
+        GMAIL_USER: ${{ secrets.GMAIL_USER }}
+        GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      run: python main.py
+      
+    - name: Commit and push changes
+      # This step commits the updated leads.db database back to the repo
+      # so that it doesn't double-email people on the next hour
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add leads.db
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update leads db" && git push)

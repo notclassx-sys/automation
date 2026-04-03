@@ -5,154 +5,56 @@
             "email": "davegmills70@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Cnh Clt",
             "email": "cnh.clt@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Calicuthospitalandnursinghome",
             "email": "calicuthospitalandnursinghome@hotmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "R",
-            "email": "r@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "M",
-            "email": "m@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": " ",
-            "email": ".@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
             "status": "pending"
-        },
-        {
-            "name": "L",
-            "email": "l@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "Y",
-            "email": "y@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "E",
-            "email": "e@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "U",
-            "email": "u@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "X",
-            "email": "x@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "G",
-            "email": "g@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "S",
-            "email": "s@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "Z",
-            "email": "z@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "N",
-            "email": "n@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "I",
-            "email": "i@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
-        },
-        {
-            "name": "A",
-            "email": "a@gmail.com",
-            "niche": "Hospital",
-            "location": "USA",
-            "status": "sent"
         },
         {
             "name": "Uchc Hospital",
             "email": "uchc.hospital@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Info Shalinihospitals",
             "email": "info.shalinihospitals@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Massgeneralcssa",
             "email": "MassGeneralCSSA@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Samaritanhosp",
             "email": "samaritanhosp@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Rnhhospital",
             "email": "rnhhospital@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "sent"
+            "status": "pending"
         },
         {
             "name": "Rmobbrhospital",

@@ -14,7 +14,8 @@ SKIP_DOMAINS = [
     "yahoo.com", "hotmail.com"
 ]
 
-EMAIL_PATTERN = re.compile(r'[a-zA-Z0-9._%+\-]+@(?:gmail|yahoo|hotmail|outlook|icloud)\.com', re.IGNORECASE)
+# Stricter pattern: local part must be at least 3 characters.
+EMAIL_PATTERN = re.compile(r'[a-zA-Z0-9._%+\-]{3,}@(?:gmail|yahoo|hotmail|outlook|icloud)\.com', re.IGNORECASE)
 
 async def fetch_page_text(url: str) -> str:
     try:
@@ -35,8 +36,14 @@ def extract_emails(text: str):
     for e in found:
         lower = e.lower()
         # Filter obvious junk
-        if any(x in lower for x in ["noreply", "no-reply", "test@", "example", "user@", "email@", "name@"]):
+        if any(x in lower for x in ["noreply", "no-reply", "test@", "example", "user@", "email@", "name@", "info@", "admin@"]):
             continue
+        
+        # Ensure it doesn't look like code or a fragment (e.g. starting with a dot or underscore)
+        local_part = e.split('@')[0]
+        if local_part.startswith(('.', '_', '+')) or local_part.endswith(('.', '_', '+')):
+            continue
+            
         filtered.add(e)
     return filtered
 
@@ -87,7 +94,7 @@ async def process_results(results, niche, location):
 
     return inserted_count
 
-async def scrape_new_leads():
+async def scrape_new_leads(limit: int = 15):
     total = 0
     # Randomize order to avoid patterns
     import random
@@ -109,8 +116,8 @@ async def scrape_new_leads():
                 if results:
                     count = await process_results(results, niche, location)
                     total += count
-                    if total >= 15: # Stop once we have a good batch
-                        logging.info("Found a solid batch of leads. Done for now.")
+                    if total >= limit: # Stop once we have reached the requested limit
+                        logging.info(f"Found {total} leads. Reached limit of {limit}. Done for now.")
                         return total
                 await asyncio.sleep(2)
 

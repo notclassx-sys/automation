@@ -46,6 +46,13 @@ async def insert_lead(name, email, niche, location):
         _save_data(data)
         return True
 
+async def clear_all_leads():
+    async with _lock:
+        data = _load_data()
+        data['leads'] = []
+        _save_data(data)
+        logging.info("🧹 Database cleared: all leads removed.")
+
 async def get_pending_leads(limit=5):
     async with _lock:
         data = _load_data()

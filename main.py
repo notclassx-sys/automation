@@ -14,23 +14,24 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 async def execute_one_cycle():
     await database.init_db()
-    logging.info("Starting one-shot execution cycle for GitHub Actions.")
+    logging.info("Starting fresh execution cycle for GitHub Actions.")
     
     try:
-        # 1. Check pending leads
+        # 0. Clear old state to ensure full freshness
+        await database.clear_all_leads()
+
+        # 1. Fresh Scraping: Always find 5 new leads
+        logging.info("🔍 Scraping 5 fresh leads for this session...")
+        await scraper.scrape_new_leads(limit=5)
+        
+        # 2. Get the new leads
         pending_leads = await database.get_pending_leads(limit=5)
         
-        # 2. If not enough leads, run scraper
-        if len(pending_leads) < 5:
-            logging.info(f"Only {len(pending_leads)} leads pending. Running scraper to find more...")
-            await scraper.scrape_new_leads()
-            pending_leads = await database.get_pending_leads(limit=5)
-        
         if not pending_leads:
-            logging.warning("No leads found after scraping. Exiting cycle.")
+            logging.warning("No leads found during scraping. Exiting cycle.")
             return
 
-        logging.info(f"Processing {len(pending_leads)} leads for this execution.")
+        logging.info(f"Processing {len(pending_leads)} fresh leads.")
         
         # 3. Process and send emails
         for lead in pending_leads:
@@ -50,11 +51,15 @@ async def execute_one_cycle():
             )
             
             if success:
-                await database.mark_lead_sent(lead['email'])
-                logging.info(f"Successfully processed lead: {lead['email']}")
+                logging.info(f"Successfully sent email to: {lead['email']}")
+                # We don't mark as sent here because we'll clear everything at the end
                 await asyncio.sleep(5) # Small delay to not anger Gmail's smtp limit
+            else:
+                logging.warning(f"Failed to send email to: {lead['email']}")
                 
-        logging.info("Execution cycle complete. All scheduled emails sent.")
+        # 4. Final Cleanup: Clear leads.json so storage stays empty between runs
+        await database.clear_all_leads()
+        logging.info("Execution cycle complete. Storage cleared.")
             
     except Exception as e:
         logging.error(f"Error during execution: {e}")

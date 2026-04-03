@@ -52,11 +52,11 @@ async def get_pending_leads(limit=5):
         pending = [lead for lead in data['leads'] if lead.get('status') == 'pending']
         return pending[:limit]
 
-async def mark_lead_sent(lead_id):
+async def mark_lead_sent(email):
     async with _lock:
         data = _load_data()
         for lead in data['leads']:
-            if lead.get('id') == lead_id:
+            if lead.get('email') == email:
                 lead['status'] = 'sent'
                 break
         _save_data(data)

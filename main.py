@@ -50,7 +50,7 @@ async def execute_one_cycle():
             )
             
             if success:
-                await database.mark_lead_sent(lead['id'])
+                await database.mark_lead_sent(lead['email'])
                 logging.info(f"Successfully processed lead: {lead['email']}")
                 await asyncio.sleep(5) # Small delay to not anger Gmail's smtp limit
                 

@@ -406,7 +406,7 @@
             "email": "pernacisauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 52,
@@ -414,7 +414,7 @@
             "email": "simmonsauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 53,
@@ -422,7 +422,7 @@
             "email": "boyersautorepair@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 54,
@@ -430,7 +430,7 @@
             "email": "theshopydiygarage@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 55,
@@ -438,7 +438,7 @@
             "email": "fedelerudy@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 56,
@@ -919,11 +919,43 @@
             "niche": "HVAC Service",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 116,
+            "name": "Elysiumfitness72",
+            "email": "elysiumfitness72@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 117,
+            "name": "Skygymafi",
+            "email": "skygymafi@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 118,
+            "name": "Maikcwiedenbach",
+            "email": "maikcwiedenbach@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 119,
+            "name": "Foreverfotostudio",
+            "email": "foreverfotostudio@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 21:28:45",
+        "last_run": "2026-04-03 22:01:30",
         "location_index": 0,
-        "niche_index": 11
+        "niche_index": 14
     }
 }

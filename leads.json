@@ -566,7 +566,7 @@
             "email": "singingsurfmasset@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 72,
@@ -574,7 +574,7 @@
             "email": "dalesotto@hotmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 73,
@@ -582,7 +582,7 @@
             "email": "massethotel@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 74,
@@ -590,7 +590,7 @@
             "email": "samsplacehaidagwaii@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 75,
@@ -598,7 +598,7 @@
             "email": "hiddenislandrv@hotmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 76,
@@ -1095,11 +1095,51 @@
             "niche": "Landscaping",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 138,
+            "name": "Patriceinteriorsnyc",
+            "email": "patriceinteriorsnyc@gmail.com",
+            "niche": "Interior Designer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 139,
+            "name": "Avinteriors Ny",
+            "email": "avinteriors.ny@gmail.com",
+            "niche": "Interior Designer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 140,
+            "name": "Partment48Nyc",
+            "email": "partment48nyc@gmail.com",
+            "niche": "Interior Designer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 141,
+            "name": "Ashleyburns1759",
+            "email": "ashleyburns1759@gmail.com",
+            "niche": "Interior Designer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 142,
+            "name": "Interiorsbybianca",
+            "email": "interiorsbybianca@gmail.com",
+            "niche": "Interior Designer",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 23:29:44",
+        "last_run": "2026-04-03 23:59:10",
         "location_index": 0,
-        "niche_index": 17
+        "niche_index": 18
     }
 }

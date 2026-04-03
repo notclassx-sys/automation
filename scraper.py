@@ -48,16 +48,26 @@ def extract_emails(text: str):
     return filtered
 
 async def ddgs_search(query: str, max_results: int = 15):
-    """Run DuckDuckGo search synchronously in a thread."""
+    """Run DuckDuckGo search synchronously in a thread with 3 retries."""
     def _search():
-        try:
-            from duckduckgo_search import DDGS
-            with DDGS() as ddgs:
-                results = list(ddgs.text(query, max_results=max_results))
-                return results if results else []
-        except Exception as e:
-            logging.warning(f"DDGS search failed for '{query}': {e}")
-            return []
+        from duckduckgo_search import DDGS
+        # Suppress warnings if possible or just ignore
+        for attempt in range(1, 4):
+            try:
+                with DDGS() as ddgs:
+                    results = list(ddgs.text(query, max_results=max_results))
+                    if results:
+                        return results
+                    # If empty, maybe try next attempt
+                    logging.warning(f"Attempt {attempt}: No results for '{query}'")
+                    import time
+                    time.sleep(2)
+            except Exception as e:
+                logging.warning(f"Attempt {attempt} failed for '{query}': {e}")
+                import time
+                time.sleep(2)
+        return []
+
     return await asyncio.to_thread(_search)
 
 async def process_results(results, niche, location):

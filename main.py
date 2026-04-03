@@ -59,6 +59,9 @@ async def execute_one_cycle():
             
     except Exception as e:
         logging.error(f"Error during execution: {e}")
+    finally:
+        # Always update last_run to ensure a commit happens on GitHub
+        await database.update_last_run()
 
 if __name__ == "__main__":
     try:

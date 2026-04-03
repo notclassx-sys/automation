@@ -2,8 +2,9 @@ name: Lead Gen & Email Bot
 
 on:
   schedule:
-    # Runs at the top of every hour
-    - cron: '*/30 * * * *' # Increased frequency to compensate for GitHub scheduling delays
+    # Runs at the top of every hour and at the 30-minute mark
+    - cron: '30 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch: # Allows manual trigger from Github UI
 
 permissions:
@@ -37,20 +38,24 @@ jobs:
         GMAIL_USER: ${{ secrets.GMAIL_USER }}
         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       run: |
-        # Ensure we have the latest leads.json before starting
+        # Configure Git
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git pull origin main --rebase || git checkout main -- leads.json
+        
+        # Pull latest state
+        git pull origin main --rebase || echo "Already up to date or conflict handled."
+        
+        # Run the bot
         python main.py
       
     - name: Commit and push changes
       run: |
         git add leads.json
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-update leads db [skip ci]"
+          git commit -m "Bot heartbeat: Leads db updated [skip ci]"
           for i in {1..5}; do
             git pull origin main --rebase && git push origin main && break || sleep 10
           done
         else
-          echo "No changes to commit."
+          echo "No changes found (unexpected but possible)."
         fi

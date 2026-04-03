@@ -1,4 +1,111 @@
 {
-    "leads": [],
-    "settings": {}
+    "leads": [
+        {
+            "id": 1,
+            "name": "Jmd Cleaningservices Pty Ltd",
+            "email": "jmd.cleaningservices.pty.ltd@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "name": "Teampearlcleaning",
+            "email": "Teampearlcleaning@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 3,
+            "name": "Teamogmovers",
+            "email": "teamogmovers@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 4,
+            "name": "Sshomecleaning10",
+            "email": "sshomecleaning10@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 5,
+            "name": "Hpperfectcleaningservices",
+            "email": "hpperfectcleaningservices@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 6,
+            "name": "Healing24Cleaning",
+            "email": "healing24cleaning@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 7,
+            "name": "Fullbondclean",
+            "email": "fullbondclean@gmail.com",
+            "niche": "Cleaning Service",
+            "location": "Australia",
+            "status": "pending"
+        },
+        {
+            "id": 8,
+            "name": "Kimhabraken11",
+            "email": "kimhabraken11@gmail.com",
+            "niche": "Real Estate",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 9,
+            "name": "Torontoinvestorforum",
+            "email": "torontoinvestorforum@gmail.com",
+            "niche": "Real Estate",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 10,
+            "name": "Churchsupport",
+            "email": "churchsupport@gmail.com",
+            "niche": "Real Estate",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 11,
+            "name": "Haniffshariff",
+            "email": "haniffshariff@gmail.com",
+            "niche": "Real Estate",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 12,
+            "name": "Usatophub",
+            "email": "usatophub@gmail.com",
+            "niche": "Real Estate",
+            "location": "Canada",
+            "status": "pending"
+        },
+        {
+            "id": 13,
+            "name": "Bhawan Newdelhi",
+            "email": "bhawan.newdelhi@gmail.com",
+            "niche": "Restaurant",
+            "location": "UK",
+            "status": "pending"
+        }
+    ],
+    "settings": {
+        "last_run": "2026-04-04 00:31:07"
+    }
 }

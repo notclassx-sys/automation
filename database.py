@@ -78,3 +78,13 @@ async def get_setting(key):
     async with _lock:
         data = _load_data()
         return data['settings'].get(key)
+
+async def update_last_run():
+    """Update a timestamp in settings so there's always a change to commit."""
+    from datetime import datetime
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    async with _lock:
+        data = _load_data()
+        data['settings']['last_run'] = now_str
+        _save_data(data)
+        logging.info(f"Database 'last_run' updated: {now_str}")

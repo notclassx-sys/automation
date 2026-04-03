@@ -103,28 +103,28 @@
             "email": "n@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "I",
             "email": "i@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "A",
             "email": "a@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "Uchc Hospital",
             "email": "uchc.hospital@gmail.com",
             "niche": "Hospital",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "name": "Info Shalinihospitals",

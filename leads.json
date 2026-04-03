@@ -1,4 +1,53 @@
 {
-    "leads": [],
+    "leads": [
+        {
+            "id": 1,
+            "name": "Nswismphysio",
+            "email": "nswismphysio@gmail.com",
+            "niche": "Hospital",
+            "location": "Australia",
+            "status": "sent"
+        },
+        {
+            "id": 2,
+            "name": "Mexicocityrestaurant092019",
+            "email": "mexicocityrestaurant092019@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
+        },
+        {
+            "id": 3,
+            "name": "Mimexicobg",
+            "email": "mimexicobg@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
+        },
+        {
+            "id": 4,
+            "name": "Mexicoclasicobroadway",
+            "email": "mexicoclasicobroadway@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
+        },
+        {
+            "id": 5,
+            "name": "Restaurantmexicodp",
+            "email": "restaurantmexicodp@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "sent"
+        },
+        {
+            "id": 6,
+            "name": "Mexrestonlineordering",
+            "email": "mexrestonlineordering@gmail.com",
+            "niche": "Restaurant",
+            "location": "Mexico",
+            "status": "pending"
+        }
+    ],
     "settings": {}
 }

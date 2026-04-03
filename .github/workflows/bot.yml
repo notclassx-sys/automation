@@ -39,10 +39,9 @@ jobs:
       run: python main.py
       
     - name: Commit and push changes
-      # This step commits the updated leads.db database back to the repo
-      # so that it doesn't double-email people on the next hour
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git pull origin main --rebase
         git add leads.db
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update leads db" && git push)

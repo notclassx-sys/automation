@@ -326,7 +326,7 @@
             "email": "robert_essagholian@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 42,
@@ -334,7 +334,7 @@
             "email": "jackson.performance@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 43,
@@ -342,7 +342,7 @@
             "email": "blasautoservice@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 44,
@@ -350,7 +350,7 @@
             "email": "gibbonsautoservices@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 45,
@@ -358,7 +358,7 @@
             "email": "bmattinson@hotmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 46,
@@ -831,11 +831,59 @@
             "niche": "Plumber",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 105,
+            "name": "Prattgarage",
+            "email": "prattgarage@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 106,
+            "name": "Prattgarage",
+            "email": "PrattGarage@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 107,
+            "name": "Prattgarage",
+            "email": "Prattgarage@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 108,
+            "name": "Highgradeauto",
+            "email": "Highgradeauto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 109,
+            "name": "Highgradeauto",
+            "email": "HighGradeAuto@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 110,
+            "name": "Manhattanauto11",
+            "email": "Manhattanauto11@gmail.com",
+            "niche": "Auto Repair",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 20:41:13",
+        "last_run": "2026-04-04 11:58:59",
         "location_index": 0,
-        "niche_index": 6
+        "niche_index": 7
     }
 }

@@ -1639,11 +1639,19 @@
             "niche": "Restaurant",
             "location": "Los Angeles",
             "status": "pending"
+        },
+        {
+            "id": 206,
+            "name": "Jssongcpa",
+            "email": "jssongcpa@gmail.com",
+            "niche": "Accountant",
+            "location": "Los Angeles",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 06:39:05",
+        "last_run": "2026-04-04 06:55:00",
         "location_index": 1,
-        "niche_index": 7
+        "niche_index": 10
     }
 }

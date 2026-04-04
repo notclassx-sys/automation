@@ -1655,11 +1655,99 @@
             "niche": "Gym & Fitness",
             "location": "Los Angeles",
             "status": "pending"
+        },
+        {
+            "id": 208,
+            "name": "Photographer California",
+            "email": "photographer.california@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 209,
+            "name": "Thesungwoostudio1",
+            "email": "thesungwoostudio1@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 210,
+            "name": "Lastudio2000",
+            "email": "lastudio2000@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 211,
+            "name": "Ronnieskdai",
+            "email": "ronnieskdai@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 212,
+            "name": "Rarestudiola",
+            "email": "Rarestudiola@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 213,
+            "name": "Ancelsitton",
+            "email": "ancelsitton@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 214,
+            "name": "Ahyattphoto",
+            "email": "ahyattphoto@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 215,
+            "name": "Vephotos",
+            "email": "vephotos@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 216,
+            "name": "Mghphoto1",
+            "email": "mghphoto1@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 217,
+            "name": "Snvps Photography",
+            "email": "Snvps.photography@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 218,
+            "name": "Grlonghi",
+            "email": "grlonghi@gmail.com",
+            "niche": "Photographer",
+            "location": "Los Angeles",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 07:46:39",
+        "last_run": "2026-04-04 08:03:30",
         "location_index": 1,
-        "niche_index": 13
+        "niche_index": 14
     }
 }

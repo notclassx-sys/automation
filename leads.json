@@ -2935,11 +2935,43 @@
             "niche": "Restaurant",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 368,
+            "name": "Legionplumbingservices",
+            "email": "legionplumbingservices@gmail.com",
+            "niche": "Plumber",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 369,
+            "name": "Pinogallo787",
+            "email": "pinogallo787@gmail.com",
+            "niche": "Plumber",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 370,
+            "name": "Padilla4555",
+            "email": "padilla4555@gmail.com",
+            "niche": "Plumber",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 371,
+            "name": "Walstonmechanical",
+            "email": "walstonmechanical@yahoo.com",
+            "niche": "Plumber",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 11:26:45",
+        "last_run": "2026-04-04 11:55:10",
         "location_index": 2,
-        "niche_index": 4
+        "niche_index": 7
     }
 }

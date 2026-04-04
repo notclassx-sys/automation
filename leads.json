@@ -3167,11 +3167,35 @@
             "niche": "Landscaping",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 397,
+            "name": "Saurmanarchitecture",
+            "email": "saurmanarchitecture@gmail.com",
+            "niche": "Architecture",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 398,
+            "name": "Terrijarch",
+            "email": "terrijarch@gmail.com",
+            "niche": "Architecture",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 399,
+            "name": "Terrijarch",
+            "email": "Terrijarch@gmail.com",
+            "niche": "Architecture",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 15:02:31",
+        "last_run": "2026-04-04 15:27:54",
         "location_index": 2,
-        "niche_index": 20
+        "niche_index": 23
     }
 }

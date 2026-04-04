@@ -526,7 +526,7 @@
             "email": "startwithcleanslate@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 67,
@@ -534,7 +534,7 @@
             "email": "coastal1glow@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 68,
@@ -542,7 +542,7 @@
             "email": "COASTAL1GLOW@GMAIL.COM",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 69,
@@ -1239,11 +1239,35 @@
             "niche": "Electrician",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 156,
+            "name": "Keystonesalesnyc",
+            "email": "keystonesalesnyc@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 157,
+            "name": "Steveharrismasterroofer",
+            "email": "steveharrismasterroofer@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 158,
+            "name": "Agoodroofernyc",
+            "email": "agoodroofernyc@gmail.com",
+            "niche": "Roofer",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 14:58:13",
+        "last_run": "2026-04-04 15:28:18",
         "location_index": 0,
-        "niche_index": 15
+        "niche_index": 18
     }
 }

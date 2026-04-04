@@ -3031,11 +3031,91 @@
             "niche": "Dentist",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 380,
+            "name": "Erikccooper",
+            "email": "erikccooper@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 381,
+            "name": "Hello Such A Photo",
+            "email": "hello.such.a.photo@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 382,
+            "name": "Michellecoxphoto",
+            "email": "michellecoxphoto@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 383,
+            "name": "Vanessaeimaging",
+            "email": "VanessaEImaging@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 384,
+            "name": "Vanessaeimaging",
+            "email": "vanessaeimaging@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 385,
+            "name": "Seankpix",
+            "email": "seankpix@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 386,
+            "name": "Brandynicolasphotog",
+            "email": "brandynicolasphotog@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 387,
+            "name": "Kelsphotohelp",
+            "email": "Kelsphotohelp@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 388,
+            "name": "Evanaturalphoto",
+            "email": "EvaNaturalPhoto@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 389,
+            "name": "Megski22",
+            "email": "megski22@gmail.com",
+            "niche": "Photographer",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 13:37:07",
+        "last_run": "2026-04-04 13:50:17",
         "location_index": 2,
-        "niche_index": 11
+        "niche_index": 14
     }
 }

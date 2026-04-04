@@ -1839,11 +1839,59 @@
             "niche": "Interior Designer",
             "location": "Los Angeles",
             "status": "pending"
+        },
+        {
+            "id": 231,
+            "name": "Jgfullservicemoving",
+            "email": "JGFULLSERVICEMOVING@GMAIL.COM",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 232,
+            "name": "Jgfullservicemoving",
+            "email": "Jgfullservicemoving@gmail.com",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 233,
+            "name": "Chamomilemoving",
+            "email": "Chamomilemoving@gmail.com",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 234,
+            "name": "Chamomilego",
+            "email": "Chamomilego@gmail.com",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 235,
+            "name": "Ursamoving",
+            "email": "Ursamoving@gmail.com",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 236,
+            "name": "Ursamoving",
+            "email": "ursamoving@gmail.com",
+            "niche": "Moving Company",
+            "location": "Los Angeles",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 09:33:48",
+        "last_run": "2026-04-04 10:05:10",
         "location_index": 1,
-        "niche_index": 21
+        "niche_index": 24
     }
 }

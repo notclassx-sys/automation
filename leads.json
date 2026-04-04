@@ -3191,11 +3191,107 @@
             "niche": "Architecture",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 400,
+            "name": "A2Zmidwestmovingco",
+            "email": "a2zmidwestmovingco@gmail.com",
+            "niche": "Moving Company",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 401,
+            "name": "Cadinhobakery",
+            "email": "cadinhobakery@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 402,
+            "name": "Astoriacafe Chicago",
+            "email": "astoriacafe.chicago@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 403,
+            "name": "Info Lutzbakery",
+            "email": "info.lutzbakery@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 404,
+            "name": "Brownsugarbakery75",
+            "email": "brownsugarbakery75@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 405,
+            "name": "Newparadisebakery Usa",
+            "email": "newparadisebakery.usa@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 406,
+            "name": "Hendrickxbakery",
+            "email": "hendrickxbakery@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 407,
+            "name": "Pierreschicago",
+            "email": "pierreschicago@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 408,
+            "name": "Sweet Rabbit Bakery",
+            "email": "sweet.rabbit.bakery@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 409,
+            "name": "Nsweet Rabbit Bakery",
+            "email": "nsweet.rabbit.bakery@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 410,
+            "name": "Sugarmoonchicago",
+            "email": "sugarmoonchicago@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 411,
+            "name": "Jasonliechty",
+            "email": "jasonliechty@gmail.com",
+            "niche": "Bakery",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 15:27:54",
+        "last_run": "2026-04-04 15:56:48",
         "location_index": 2,
-        "niche_index": 23
+        "niche_index": 25
     }
 }

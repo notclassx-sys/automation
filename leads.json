@@ -2967,11 +2967,75 @@
             "niche": "Plumber",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 372,
+            "name": "Leedentalclinic",
+            "email": "leedentalclinic@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 373,
+            "name": "Dentalgroupofchicago",
+            "email": "dentalgroupofchicago@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 374,
+            "name": "Fsfd3939",
+            "email": "fsfd3939@yahoo.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 375,
+            "name": "Smilehavenpllc",
+            "email": "smilehavenpllc@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 376,
+            "name": "Smilehavenpllc",
+            "email": "Smilehavenpllc@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 377,
+            "name": "Chicagoholisticdentistry",
+            "email": "chicagoholisticdentistry@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 378,
+            "name": "Mindfuldental6437",
+            "email": "mindfuldental6437@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 379,
+            "name": "Compassdentallakeview",
+            "email": "compassdentallakeview@gmail.com",
+            "niche": "Dentist",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 11:55:10",
+        "last_run": "2026-04-04 12:40:06",
         "location_index": 2,
-        "niche_index": 7
+        "niche_index": 8
     }
 }

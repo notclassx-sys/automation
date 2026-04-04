@@ -2871,11 +2871,75 @@
             "niche": "Real Estate",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 360,
+            "name": "Ricksbell",
+            "email": "ricksbell@yahoo.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 361,
+            "name": "Alastair Rice",
+            "email": "alastair_rice@hotmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 362,
+            "name": "Brianmelssm",
+            "email": "brianmelssm@hotmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 363,
+            "name": "Arrdeen",
+            "email": "arrdeen@yahoo.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 364,
+            "name": "Brindillechicago",
+            "email": "brindillechicago@gmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 365,
+            "name": "Teamglobepub",
+            "email": "teamglobepub@gmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 366,
+            "name": "Eatyummybowl",
+            "email": "eatyummybowl@gmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 367,
+            "name": "Woodfiretavern",
+            "email": "woodfiretavern@gmail.com",
+            "niche": "Restaurant",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 11:03:11",
+        "last_run": "2026-04-04 11:26:45",
         "location_index": 2,
-        "niche_index": 1
+        "niche_index": 4
     }
 }

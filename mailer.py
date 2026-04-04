@@ -1,5 +1,6 @@
 import os
 import smtplib
+import random
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import asyncio
@@ -13,8 +14,11 @@ def _send_email_sync(to_email, subject, body):
         logging.error("Missing GMAIL_USER or GMAIL_APP_PASSWORD in .env")
         return False
 
+    names = ["Monu Kumar", "Monu", "Monu K.", "Monu from Inityo"]
+    from_name = random.choice(names)
+
     msg = MIMEMultipart()
-    msg['From'] = f"Monu Kumar <{sender_email}>"
+    msg['From'] = f"{from_name} <{sender_email}>"
     msg['To'] = to_email
     msg['Subject'] = subject
 

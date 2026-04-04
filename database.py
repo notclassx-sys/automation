@@ -88,3 +88,23 @@ async def update_last_run():
         data['settings']['last_run'] = now_str
         _save_data(data)
         logging.info(f"Database 'last_run' updated: {now_str}")
+
+async def get_daily_sent_count():
+    """Get the number of emails sent today."""
+    from datetime import datetime
+    today = datetime.now().strftime("%Y-%m-%d")
+    async with _lock:
+        data = _load_data()
+        if data['settings'].get('daily_sent_date') != today:
+            data['settings']['daily_sent_date'] = today
+            data['settings']['daily_sent_count'] = 0
+            _save_data(data)
+        return data['settings'].get('daily_sent_count', 0)
+
+async def increment_daily_sent_count():
+    """Increment the number of emails sent today."""
+    async with _lock:
+        data = _load_data()
+        count = data['settings'].get('daily_sent_count', 0)
+        data['settings']['daily_sent_count'] = count + 1
+        _save_data(data)

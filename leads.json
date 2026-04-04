@@ -366,7 +366,7 @@
             "email": "kennedysrepair@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 47,
@@ -374,7 +374,7 @@
             "email": "akronlaststopauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 48,
@@ -382,7 +382,7 @@
             "email": "specializedporscheservice@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 49,
@@ -390,7 +390,7 @@
             "email": "cintechauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 50,
@@ -398,7 +398,7 @@
             "email": "nechemotor@hotmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 51,
@@ -879,11 +879,19 @@
             "niche": "Auto Repair",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 111,
+            "name": "Ccfd2091",
+            "email": "ccfd2091@gmail.com",
+            "niche": "Dentist",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 11:58:59",
+        "last_run": "2026-04-04 13:05:27",
         "location_index": 0,
-        "niche_index": 7
+        "niche_index": 10
     }
 }

@@ -646,7 +646,7 @@
             "email": "massetmarket@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 82,
@@ -654,7 +654,7 @@
             "email": "haidgawaiiit@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 83,
@@ -662,7 +662,7 @@
             "email": "nohaidagwaii@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 84,
@@ -670,7 +670,7 @@
             "email": "gwaiinaay@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 85,
@@ -678,7 +678,7 @@
             "email": "stevebordignon@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 86,
@@ -1207,11 +1207,139 @@
             "niche": "Architecture",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 152,
+            "name": "Afeguardpestmanagement",
+            "email": "afeguardpestmanagement@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 153,
+            "name": "Pathwaypestcontrol1",
+            "email": "pathwaypestcontrol1@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 154,
+            "name": "Neighborhoodpestcontrol21",
+            "email": "neighborhoodpestcontrol21@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 155,
+            "name": "Dzubiee",
+            "email": "dzubiee@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 156,
+            "name": "Amitypestcontrol",
+            "email": "amitypestcontrol@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 157,
+            "name": "Bedbugkiller",
+            "email": "bedbugkiller@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 158,
+            "name": "Rjr Rr",
+            "email": "rjr_rr@yahoo.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 159,
+            "name": "Ashlandpestcontrol",
+            "email": "ashlandpestcontrol@hotmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 160,
+            "name": "Cpcnycllc",
+            "email": "cpcnycllc@yahoo.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 161,
+            "name": "Afederalexterminating",
+            "email": "afederalexterminating@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 162,
+            "name": "Ozanepmp",
+            "email": "ozanepmp@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 163,
+            "name": "Rudysexterminatingco",
+            "email": "rudysexterminatingco@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 164,
+            "name": "Pestchallenge",
+            "email": "pestchallenge@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 165,
+            "name": "Protectyourhomestead",
+            "email": "Protectyourhomestead@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 166,
+            "name": "Proforcepestsolutions",
+            "email": "proforcepestsolutions@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 167,
+            "name": "Piper938",
+            "email": "piper938@gmail.com",
+            "niche": "Pest Control",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 01:44:35",
+        "last_run": "2026-04-04 03:23:34",
         "location_index": 0,
-        "niche_index": 21
+        "niche_index": 23
     }
 }

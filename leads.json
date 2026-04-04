@@ -606,7 +606,7 @@
             "email": "stevebordingnon@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 77,
@@ -614,7 +614,7 @@
             "email": "goodgradecontracting@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 78,
@@ -622,7 +622,7 @@
             "email": "masseteagleslanding@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 79,
@@ -630,7 +630,7 @@
             "email": "massetcycles@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 80,
@@ -638,7 +638,7 @@
             "email": "massetgym@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 81,
@@ -1135,11 +1135,83 @@
             "niche": "Interior Designer",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 143,
+            "name": "Pawhausah",
+            "email": "pawhausah@gmail.com",
+            "niche": "Veterinarian",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 144,
+            "name": "Mwahvet",
+            "email": "mwahvet@gmail.com",
+            "niche": "Veterinarian",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 145,
+            "name": "Qualitycareah",
+            "email": "qualitycareah@yahoo.com",
+            "niche": "Veterinarian",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 146,
+            "name": "Palmviewvet",
+            "email": "palmviewvet@gmail.com",
+            "niche": "Veterinarian",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 147,
+            "name": "Preservationarchitecture",
+            "email": "preservationarchitecture@gmail.com",
+            "niche": "Architecture",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 148,
+            "name": "Davidborensteininc",
+            "email": "davidborensteininc@gmail.com",
+            "niche": "Architecture",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 149,
+            "name": "Accentarchitect",
+            "email": "accentarchitect@gmail.com",
+            "niche": "Architecture",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 150,
+            "name": "Michaelgrayarchitects",
+            "email": "michaelgrayarchitects@gmail.com",
+            "niche": "Architecture",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 151,
+            "name": "Acnyweb",
+            "email": "acnyweb@gmail.com",
+            "niche": "Architecture",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-03 23:59:10",
+        "last_run": "2026-04-04 01:44:35",
         "location_index": 0,
-        "niche_index": 18
+        "niche_index": 21
     }
 }

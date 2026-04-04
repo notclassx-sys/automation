@@ -446,7 +446,7 @@
             "email": "freedomautotx@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 57,
@@ -454,7 +454,7 @@
             "email": "scatteredwrenches@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 58,
@@ -462,7 +462,7 @@
             "email": "gillespietire@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 59,
@@ -470,7 +470,7 @@
             "email": "precisionimportsmn@outlook.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 60,
@@ -478,7 +478,7 @@
             "email": "neoautoworks@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 61,
@@ -911,11 +911,67 @@
             "niche": "Gym & Fitness",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 115,
+            "name": "Hellozakharava",
+            "email": "hellozakharava@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 116,
+            "name": "Claribelgphoto",
+            "email": "claribelgphoto@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 117,
+            "name": "Parmelee Photo",
+            "email": "PARMELEE.PHOTO@GMAIL.COM",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 118,
+            "name": "Parmelee Photo",
+            "email": "parmelee.photo@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 119,
+            "name": "Bmorgensteinphoto",
+            "email": "bmorgensteinphoto@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 120,
+            "name": "Jonflemingphotography",
+            "email": "JonFlemingPhotography@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 121,
+            "name": "Jonflemingphotography",
+            "email": "jonflemingphotography@gmail.com",
+            "niche": "Photographer",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 13:34:33",
+        "last_run": "2026-04-04 14:29:52",
         "location_index": 0,
-        "niche_index": 13
+        "niche_index": 14
     }
 }

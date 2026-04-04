@@ -406,7 +406,7 @@
             "email": "pernacisauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 52,
@@ -414,7 +414,7 @@
             "email": "simmonsauto@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 53,
@@ -422,7 +422,7 @@
             "email": "boyersautorepair@yahoo.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 54,
@@ -430,7 +430,7 @@
             "email": "theshopydiygarage@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 55,
@@ -438,7 +438,7 @@
             "email": "fedelerudy@gmail.com",
             "niche": "Auto Repair",
             "location": "USA",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 56,
@@ -887,11 +887,35 @@
             "niche": "Dentist",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 112,
+            "name": "Elysiumfitness72",
+            "email": "elysiumfitness72@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 113,
+            "name": "Skygymafi",
+            "email": "skygymafi@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 114,
+            "name": "Maikcwiedenbach",
+            "email": "maikcwiedenbach@gmail.com",
+            "niche": "Gym & Fitness",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 13:05:27",
+        "last_run": "2026-04-04 13:34:33",
         "location_index": 0,
-        "niche_index": 10
+        "niche_index": 13
     }
 }

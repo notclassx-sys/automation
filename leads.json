@@ -3111,11 +3111,67 @@
             "niche": "Photographer",
             "location": "Chicago",
             "status": "pending"
+        },
+        {
+            "id": 390,
+            "name": "Manuelgarcia838",
+            "email": "manuelgarcia838@outlook.com",
+            "niche": "Roofer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 391,
+            "name": "Roofer Business",
+            "email": "838@gmail.com",
+            "niche": "Roofer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 392,
+            "name": "D2001989",
+            "email": "d2001989@gmail.com",
+            "niche": "Roofer",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 393,
+            "name": "Impallari",
+            "email": "impallari@gmail.com",
+            "niche": "Landscaping",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 394,
+            "name": "Camargolandscaping",
+            "email": "camargolandscaping@gmail.com",
+            "niche": "Landscaping",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 395,
+            "name": "Lisacreativelandscape",
+            "email": "lisacreativelandscape@gmail.com",
+            "niche": "Landscaping",
+            "location": "Chicago",
+            "status": "pending"
+        },
+        {
+            "id": 396,
+            "name": "Dantesnative",
+            "email": "dantesnative@gmail.com",
+            "niche": "Landscaping",
+            "location": "Chicago",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 13:50:17",
+        "last_run": "2026-04-04 14:30:41",
         "location_index": 2,
-        "niche_index": 14
+        "niche_index": 17
     }
 }

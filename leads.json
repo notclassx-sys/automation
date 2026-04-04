@@ -726,7 +726,7 @@
             "email": "triplejcleaning88@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 92,
@@ -734,7 +734,7 @@
             "email": "fastandeasycleaningservice@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 93,
@@ -742,7 +742,7 @@
             "email": "whizzardservicesgroup@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 94,
@@ -750,7 +750,7 @@
             "email": "cleaningworksau@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 95,
@@ -758,7 +758,7 @@
             "email": "violetapavleskacleaning@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 96,
@@ -1426,8 +1426,8 @@
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 04:14:12",
-        "location_index": 0,
-        "niche_index": 26
+        "last_run": "2026-04-04 05:12:20",
+        "location_index": 1,
+        "niche_index": 1
     }
 }

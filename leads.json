@@ -686,7 +686,7 @@
             "email": "noahaidagwaii@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 87,
@@ -694,7 +694,7 @@
             "email": "jsa.proservices@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 88,
@@ -702,7 +702,7 @@
             "email": "cleaningrestorationkk@gmail.com",
             "niche": "Cleaning Service",
             "location": "Canada",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 89,
@@ -710,7 +710,7 @@
             "email": "hotelaustralia@gmail.com",
             "niche": "Hotel",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 90,
@@ -718,7 +718,7 @@
             "email": "zackcleaningaustralia@gmail.com",
             "niche": "Cleaning Service",
             "location": "Australia",
-            "status": "pending"
+            "status": "sent"
         },
         {
             "id": 91,
@@ -1335,11 +1335,99 @@
             "niche": "Pest Control",
             "location": "New York",
             "status": "pending"
+        },
+        {
+            "id": 168,
+            "name": "Johnscoffeenyc",
+            "email": "johnscoffeenyc@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 169,
+            "name": "Info Ludlowcoffeesupply",
+            "email": "info.ludlowcoffeesupply@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 170,
+            "name": "Cafepaninonyc",
+            "email": "cafepaninonyc@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 171,
+            "name": "Javagirlnewyork",
+            "email": "javagirlnewyork@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 172,
+            "name": "Kandlelightllcnyc",
+            "email": "kandlelightllcnyc@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 173,
+            "name": "Hekatenyc",
+            "email": "hekatenyc@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 174,
+            "name": "Ali Sabbagh72",
+            "email": "ali.sabbagh72@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 175,
+            "name": "Thefancykook",
+            "email": "thefancykook@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 176,
+            "name": "Sensuousbean",
+            "email": "sensuousbean@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 177,
+            "name": "Evpcoffee",
+            "email": "evpcoffee@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
+        },
+        {
+            "id": 178,
+            "name": "Gipfelcoffee",
+            "email": "gipfelcoffee@gmail.com",
+            "niche": "Coffee Shop",
+            "location": "New York",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 03:23:34",
+        "last_run": "2026-04-04 04:14:12",
         "location_index": 0,
-        "niche_index": 23
+        "niche_index": 26
     }
 }

@@ -1887,11 +1887,27 @@
             "niche": "Moving Company",
             "location": "Los Angeles",
             "status": "pending"
+        },
+        {
+            "id": 237,
+            "name": "Outlookconsultingla",
+            "email": "OutlookConsultingLA@gmail.com",
+            "niche": "Consulting",
+            "location": "Los Angeles",
+            "status": "pending"
+        },
+        {
+            "id": 238,
+            "name": "Lavigneconsult",
+            "email": "lavigneconsult@gmail.com",
+            "niche": "Consulting",
+            "location": "Los Angeles",
+            "status": "pending"
         }
     ],
     "settings": {
-        "last_run": "2026-04-04 10:05:10",
+        "last_run": "2026-04-04 10:29:21",
         "location_index": 1,
-        "niche_index": 24
+        "niche_index": 27
     }
 }
